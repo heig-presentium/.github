@@ -28,6 +28,7 @@ The project is divided into several repositories, the main components are descri
 
 - [Meta][repo-meta]: Repository containing the project's documentation and general information.
 - [App][repo-app]: The main frontend application for teachers, its API and business model classes, as well as the Rasbperry Pi interface.
+- [Infrastructure][repo-infra]: The infrastructure as code of the project, deploying the dashboard application and required services on AWS.
 - [Operating System][repo-os] (OS): The operating system running on the Raspberry Pi.
 - [Landing][repo-landing]: The landing page for the project.
 
@@ -61,6 +62,7 @@ Please refer to the [Contributing Guide][contributing] before making a pull requ
 
 [repo-meta]: https://github.com/presentium/meta
 [repo-app]: https://github.com/presentium/app
+[repo-infra]: https://github.com/presentium/infrastructure
 [repo-os]: https://github.com/presentium/os
 [repo-landing]: https://github.com/presentium/landing
 
