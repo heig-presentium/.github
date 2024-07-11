@@ -6,23 +6,36 @@
 
 <p align="center">
   Scalable presence control system using RFID student cards.
-  <br/>
-  <br/>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/license-MIT-darkgreen" alt="License" />
 </p>
 </p>
 
 ---
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-darkgreen" />
-  <img alt="App Version" src="https://img.shields.io/github/package-json/v/presentium/app" />
-</p>
 
 ## Context
 
 Presentium is a group project done as part of the PDG class of HEIG-VD, Switzerland. 
 
 The goal of the project is to streamline taking student attendance using RFID student cards.
+The project is developed as mandated by the [Bill of Specifications][bill-of-specs].
+
+The complete documentation about the project, its structure, and its components can be found in the [Wiki][meta-wiki].
+
+## Project Structure
+
+The project is divided into several repositories, the main components are described below:
+
+- [Meta][repo-meta]: Repository containing the project's documentation and general information.
+- [App][repo-app]: The main frontend application for teachers, its API and business model classes, as well as the Rasbperry Pi interface.
+- [Operating System][repo-os] (OS): The operating system running on the Raspberry Pi.
+- [Landing][repo-landing]: The landing page for the project.
+
+Other repositories may be created for specific components or features, their usecases should be detailed in their description as well as in the [Wiki][meta-wiki].
+
+## Contributing
+
+Please refer to the [Contributing Guide][contributing] before making a pull request.
 
 ## Contributors
 
@@ -45,3 +58,13 @@ The goal of the project is to streamline taking student attendance using RFID st
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+[repo-meta]: https://github.com/presentium/meta
+[repo-app]: https://github.com/presentium/app
+[repo-os]: https://github.com/presentium/os
+[repo-landing]: https://github.com/presentium/landing
+
+[meta-wiki]: https://github.com/presentium/meta/wiki
+
+[contributing]: https://github.com/presentium/meta/blob/main/CONTRIBUTING.md
+[bill-of-specs]: https://github.com/presentium/meta/wiki/Cahier-des-charges
