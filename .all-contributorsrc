@@ -1,0 +1,71 @@
+{
+  "projectOwner": "presentium",
+  "projectName": "app",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "profile/README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "Lutonite",
+      "name": "Loïc H.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21953109?v=4",
+      "profile": "https://github.com/Lutonite",
+      "contributions": [
+        "code",
+        "doc",
+        "test",
+        "review"
+      ]
+    },
+    {
+      "login": "DACC4",
+      "name": "Christophe - CC4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46499354?v=4",
+      "profile": "https://github.com/DACC4",
+      "contributions": [
+        "tool",
+        "platform",
+        "infra"
+      ]
+    },
+    {
+      "login": "spiritclaw",
+      "name": "Léa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46258367?v=4",
+      "profile": "https://github.com/spiritclaw",
+      "contributions": [
+        "infra",
+        "test",
+        "tool"
+      ]
+    },
+    {
+      "login": "massteff",
+      "name": "massteff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42839432?v=4",
+      "profile": "https://github.com/massteff",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
+    },
+    {
+      "login": "Mystere98",
+      "name": "Mystere",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38164068?v=4",
+      "profile": "https://github.com/Mystere98",
+      "contributions": [
+        "infra",
+        "security",
+        "tool"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
