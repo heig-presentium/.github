@@ -18,7 +18,7 @@
 Presentium is a group project done as part of the PDG class of HEIG-VD, Switzerland. 
 
 The goal of the project is to streamline taking student attendance using RFID student cards.
-The project is developed as mandated by the [Bill of Specifications][Project-Description].
+The project is developed as mandated by the [Project Description](https://github.com/presentium/meta/wiki/Project-Description).
 
 The complete documentation about the project, its structure, and its components can be found in the [Wiki][meta-wiki].
 
