@@ -26,16 +26,20 @@ The complete documentation about the project, its structure, and its components 
 
 The project is divided into several repositories, the main components are described below:
 
+### Meta repositories
 - [Meta][repo-meta]: Repository containing the project's documentation and general information.
 - [Landing][repo-landing]: The landing page for the project.
 
+### Web
 - [Dashboard][repo-dashboard]: The dashboard application for teachers and students.
 - [API][repo-api]: The backend API handling communication with reader devices and data for the dashboard.
 
+### Client (Raspberry Pi devices)
 - [Client app][repo-client-app]: The client app used to connect to the API on reader devices.
 - [APT repository][repo-deb]: A repository serving as an APT repository for reader devices.
 - [Operating System][repo-os] (OS): The operating system running on the Raspberry Pi.
 
+### Infrastructure
 - [Infrastructure][repo-infra]: The infrastructure as code of the project, deploying the dashboard application and required services on AWS.
 - [Kubernetes][repo-k8s]: The kubernetes files managed by ArgoCD for deploying the application and infrastructure.
 
