@@ -27,7 +27,7 @@ The complete documentation about the project, its structure, and its components 
 The project is divided into several repositories, the main components are described below:
 
 - [Meta][repo-meta]: Repository containing the project's documentation and general information.
-- - [Landing][repo-landing]: The landing page for the project.
+- [Landing][repo-landing]: The landing page for the project.
 
 - [Dashboard][repo-dashboard]: The dashboard application for teachers and students.
 - [API][repo-api]: The backend API handling communication with reader devices and data for the dashboard.
