@@ -30,8 +30,11 @@ The project is divided into several repositories, the main components are descri
 - [Dashboard][repo-dashboard]: The dashboard application for teachers and students.
 - [API][repo-api]: The backend API handling communication with reader devices and data for the dashboard.
 - [Infrastructure][repo-infra]: The infrastructure as code of the project, deploying the dashboard application and required services on AWS.
+- [Kubernetes][repo-k8s]: The kubernetes files managed by ArgoCD for deploying the application and infrastructure.
 - [Operating System][repo-os] (OS): The operating system running on the Raspberry Pi.
 - [Landing][repo-landing]: The landing page for the project.
+- [Client app][repo-client-app]: The client app used to connect to the API on reader devices.
+- [APT repository][repo-deb]: A repository serving as an APT repository for reader devices.
 
 Other repositories may be created for specific components or features, their usecases should be detailed in their description as well as in the [Wiki][meta-wiki].
 
@@ -67,6 +70,9 @@ Please refer to the [Contributing Guide][contributing] before making a pull requ
 [repo-infra]: https://github.com/presentium/infrastructure
 [repo-os]: https://github.com/presentium/os
 [repo-landing]: https://github.com/presentium/landing
+[repo-client-app]: https://github.com/presentium/rpi-client-app
+[repo-deb]: https://github.com/presentium/deb
+[repo-k8s]: https://github.com/presentium/kubernetes
 
 [meta-wiki]: https://github.com/presentium/meta/wiki
 
