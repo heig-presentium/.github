@@ -46,6 +46,14 @@ The project is divided into several repositories, the main components are descri
 
 Other repositories may be created for specific components or features, their usecases should be detailed in their description as well as in the [Wiki][meta-wiki].
 
+## Running locally
+
+To get the dashboard and API up and running (with a mock gRPC client if necessary), you'll need to clone the dashboard and API repositories.
+The dashboard is tightely coupled to the API, but not otherwise. To have all necessary dependencies for both components, you'll simply need to
+start the Spring Boot API in development mode as described in the API repository README.
+
+The dashboard repository has additional information about configuring the environment variables (which basically only requires copying the sample file).
+
 ## Contributing
 
 Please refer to the [Contributing Guide][contributing] before making a pull request.
